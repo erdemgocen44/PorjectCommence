@@ -7,6 +7,7 @@ export default function TabTwoScreen() {
     <View style={styles.container}>
       <Text>Araba</Text>
       <StatusBar style="auto" />
+
       <View style={styles.subContainer}>
         <Text style={styles.textStyle}>TEST TEST</Text>
       </View>
@@ -22,11 +23,16 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   subContainer: {
-    backgroundColor: "grey",
     width: "80%",
     height: "60%",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 15,
+    borderWidth: 3,
+    borderColor: "blue",
   },
   textStyle: {
-    color: "white",
+    color: "red",
+    fontWeight: "bold",
   },
 });
