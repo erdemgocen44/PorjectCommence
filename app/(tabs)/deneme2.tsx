@@ -15,6 +15,7 @@ export default function TabTwoScreen() {
       <TextInput
         style={styles.input}
         keyboardType="numeric"
+        inputMode="numeric"
         placeholder="Lütfen Posta Kodunuzu Giriniz"
       />
     </View>
@@ -30,6 +31,9 @@ const styles = StyleSheet.create({
     padding: 15,
     marginVertical: 12,
     textAlign: "center",
+    fontStyle: "italic",
+    elevation: 1,
+    color: "gris",
   },
   container: {
     flex: 1,
@@ -49,5 +53,6 @@ const styles = StyleSheet.create({
   textStyle: {
     color: "red",
     fontWeight: "bold",
+    fontSize: 14,
   },
 });
